@@ -1,9 +1,7 @@
-import React from "react";
-
 const Category = () => {
   return (
     <div>
-      <h1>This is Category</h1>
+      <h4>This is category</h4>
     </div>
   );
 };
