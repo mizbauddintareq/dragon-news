@@ -7,6 +7,7 @@ import {
   FaTwitter,
   FaWhatsapp,
 } from "react-icons/fa";
+import BrandCarousel from "../BrandCarousel/BrandCarousel";
 const RightSideNav = () => {
   return (
     <div>
@@ -36,6 +37,9 @@ const RightSideNav = () => {
           </ListGroup.Item>
           <ListGroup.Item className="my-2">Vestibulum at eros</ListGroup.Item>
         </ListGroup>
+      </div>
+      <div>
+        <BrandCarousel />
       </div>
     </div>
   );
